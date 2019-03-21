@@ -13,9 +13,9 @@
 				"plan": "hdi-shared",
 				"credentials": {
 					"schema": "HDI_WITHOUT_XSA",
-					"hdi_password": "<password>",
+					"hdi_password": "<Password>",
 					"tenant_name": "HXE",
-					"password": "<password>",
+					"password": "<Password>",
 					"driver": "com.sap.db.jdbc.Driver",
 					"port": "30015",
 					"encrypt": false,
@@ -26,8 +26,8 @@
 						}
 					],
 					"host": "hanapm.local.com",
-					"hdi_user": "WORKSHOP_00",
-					"user": "WORKSHOP_00",
+					"hdi_user": "SYSTEM",
+					"user": "SYSTEM",
 					"url": "jdbc:sap://hanapm.local.com:30015/?currentschema=HDI_WITHOUT_XSA"
 				}
 			}
