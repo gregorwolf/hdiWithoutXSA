@@ -13,9 +13,9 @@
 				"plan": "hdi-shared",
 				"credentials": {
 					"schema": "HDI_WITHOUT_XSA",
-					"hdi_password": "<Password>",
+					"hdi_password": "HanaRocks01",
 					"tenant_name": "HXE",
-					"password": "<Password>",
+					"password": "HanaRocks01",
 					"driver": "com.sap.db.jdbc.Driver",
 					"port": "30015",
 					"encrypt": false,
