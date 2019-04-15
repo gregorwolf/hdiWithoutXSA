@@ -1,3 +1,4 @@
+
 --First/One Time Setup to activate diserver on HANA - Must be done on SYSTEM DB
 DO
 BEGIN
