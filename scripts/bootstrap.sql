@@ -1,5 +1,4 @@
---First/One Time Setup to activate diserver on HANA - Must be done on SYSTEM DB
-DO
+--First/One Time Setup to activate diserver on HANA 
 BEGIN
   DECLARE dbName NVARCHAR(25) = 'HXE'; --<-- substitute XY1 by the name of your tenant DB
   -- Start diserver
