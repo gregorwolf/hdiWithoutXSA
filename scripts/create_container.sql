@@ -36,4 +36,11 @@ select * from :MESSAGES;
   default = SELECT * FROM _SYS_DI.T_DEFAULT_LIBRARIES;
   CALL _SYS_DI.CONFIGURE_LIBRARIES('&2', :default, :no_params, :return_code, :request_id, :MESSAGES);
   SELECT :userDT as "Object Owner", :userRT as "Application User" from DUMMY;
+  
+    EXEC 'CREATE ROLE "&2::access_role"';
+    EXEC 'CREATE ROLE "&2::external_privileges_role"';
+
+    EXEC 'GRANT  "&2::access_role" TO ' || :userRT;
+    EXEC 'GRANT  "&2::external_privileges_role" TO ' || :userRT;     
+    
 END;
