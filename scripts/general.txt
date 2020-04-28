@@ -1,6 +1,6 @@
 
 --Connect in hdbsql - First Tenant
--n hanapm.local.com:30015 -m
+-n hanapm.local.com:39015 -m
 --Multiline
 \Mu
 --Aligned Output
