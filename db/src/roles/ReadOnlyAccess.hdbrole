@@ -1,0 +1,22 @@
+{
+  "role":{
+    "name":"opensap::ReadOnly",
+    "object_privileges":[
+      {
+        "name":"OPENSAP_PURCHASEORDER_BUSINESSPARTNER",
+        "type":"TABLE",
+        "privileges":["SELECT" ]
+      },
+      {
+        "name":"OPENSAP_PURCHASEORDER_HEADERS",
+        "type":"TABLE",
+        "privileges":["SELECT" ]
+      },
+      {
+        "name":"OPENSAP_PURCHASEORDER_ITEMS",
+        "type":"TABLE",
+        "privileges":["SELECT" ]
+      }
+    ]
+  } 
+}
